@@ -1,0 +1,3 @@
+JAPANESE CITY ATTRIBUTES
+
+Select * from CITY where COUNTRYCODE ='JPN';
