@@ -1,0 +1,14 @@
+create table SALES_ORDER
+(
+ORDERNO varchar2(6) Primary key check(ORDERNO like 'O%'),
+CLIENTNO varchar2(6) ,
+ORDERDATE date not null,
+DELYADDR varchar2(25),
+SALESMANNO varchar2(6) ,
+DELYTYPE char(1) default 'F' check(DELYTYPE IN('P','F')),
+BILLYN char(1),
+DELYDATE date,
+ORDERSTATUS varchar2(10) check(ORDERSTATUS IN('In Process','Fulfilled','BackOrder','Cancelled')),
+foreign key (clientno) references CLIENT_MASTER(CLIENTNO),
+foreign key (salesmanno) references SALESMAN_MASTER(SALESMANNO)
+);
