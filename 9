@@ -23,3 +23,4 @@ SELECT MAX(PurchaseAmt) from ORDER1
 SELECT MIN(PurchaseAmt) from ORDER1
 SELECT PurchaseAmt FROM ORDER1 ORDER BY CustomerId ASC
 SELECT MAX(PurchaseAmt) FROM ORDER1 WHERE Ord_Date = to_Date('2012-08-17','YYYY-MM-DD')
+SELECT PurchaseAmt,OrderNo,Ord_Date from ORDER1 WHERE PurchaseAmt>2000
