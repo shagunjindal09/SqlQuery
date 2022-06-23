@@ -1,0 +1,11 @@
+BEGIN
+DBMS_OUTPUT.put_line('Hello World!');
+END;
+DECLARE 
+A NUMBER:=10;
+B NUMBER:=20;
+Z NUMBER;
+BEGIN
+Z:=A+B;
+DBMS_OUTPUT.put_line(Z);
+END;
