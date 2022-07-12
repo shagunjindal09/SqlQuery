@@ -1,0 +1,5 @@
+Retrieve the designation and salary of all 'Manager' and 'Billing Staff
+
+Select Designation , Salary from Empdetails 
+where Designation='Manager' or 
+Designation='Billing Staff';
