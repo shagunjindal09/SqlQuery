@@ -1,0 +1,2 @@
+SELECT Quotationid,Sname from Quotation where 
+Qstatus ='Accepted' or Qstatus='Rejected'
