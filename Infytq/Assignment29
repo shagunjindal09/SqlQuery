@@ -1,0 +1,2 @@
+select Itemcode, Descr,Price from Item where 
+Descr Like '_r%'
