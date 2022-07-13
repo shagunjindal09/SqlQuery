@@ -1,0 +1,2 @@
+Select Quotationid,Qdate,Quotedprice from Quotation 
+where Quotedprice >1400 and Quotedprice<2150
