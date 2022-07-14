@@ -1,0 +1,1 @@
+Delete from Saledetail where quantity >5
