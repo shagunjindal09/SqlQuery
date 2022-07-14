@@ -1,0 +1,1 @@
+update product set price=50 where Category= 'Apparel' and Pdesc='Trouser'
