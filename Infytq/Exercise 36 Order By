@@ -1,0 +1,2 @@
+SELECT Prodid, Pdesc, Price from Product Order By 
+Price Desc, Prodid Desc
