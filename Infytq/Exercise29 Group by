@@ -1,0 +1,3 @@
+select to_char(sldate,'Month') as month,count(sid) as NUMBER_SALE from sale 
+  group by to_char(sldate,'Month') 
+order by NUMBER_SALE desc
