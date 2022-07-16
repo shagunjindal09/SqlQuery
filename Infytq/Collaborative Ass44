@@ -1,0 +1,1 @@
+Select itemcode from item where abs(Qtyonhand-reorderlevel)>50;
