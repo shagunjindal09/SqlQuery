@@ -1,0 +1,2 @@
+Select Round(Avg(Price),2) as "Avg",Min(Price) as "Min", Max(Price) 
+as "Max",count(Prodid) as "Total" from Product
