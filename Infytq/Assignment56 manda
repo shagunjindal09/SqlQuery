@@ -1,0 +1,1 @@
+Select Descr from item where Length(Descr)>15
