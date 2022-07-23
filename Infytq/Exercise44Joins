@@ -1,0 +1,2 @@
+select Id,Ename,Dept,Computer.Compid,Computer.Make
+from Computer,Employee where Employee.Compid=Computer.Compid
