@@ -1,0 +1,1 @@
+select job, avg(sal) "Average Salary" from emp where job in('MANAGER','ANALYST') group by job having avg(sal)>1500;
